@@ -85,6 +85,11 @@
   font-style: var(--fs-italic);
 }
 
+.currently-reading__book-author > a {
+	color: var(--clr-chocolate-700);
+	text-decoration: none;
+}
+
 .wide {
   display: flex;
   flex-direction: row;
