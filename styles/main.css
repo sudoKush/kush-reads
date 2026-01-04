@@ -35,10 +35,6 @@
 	transition: all 0.3s;
 }
 
-.currently-reading__book-rating {
-	color: var(--clr-chocolate-700);
-}
-
 .currently-reading__book-content {
 	display: flex;
 	flex-direction: column;
