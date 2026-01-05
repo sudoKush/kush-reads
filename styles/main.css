@@ -99,16 +99,16 @@
 .quote.container {
 	position: relative;
 
-	max-width: 16rem;
+	max-width: 12rem;
 	width: auto;
-	height: 12rem;
+	height: 9rem;
 
 	font-style: var(--fs-italic);
 
 	color: var(--clr-chocolate-800);
 	background-color: var(--clr-chocolate-500);
 
-	border: 0.3rem solid var(--clr-chocolate-800);
+	border: 0.18rem solid var(--clr-chocolate-800);
 	border-top-right-radius: 0.2rem;
 	border-top-left-radius: 2rem;
 	border-bottom-left-radius: 0.2rem;
