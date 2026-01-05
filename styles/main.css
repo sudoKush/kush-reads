@@ -105,10 +105,10 @@
 
 	font-style: var(--fs-italic);
 
-	color: var(--clr-white);
+	color: var(--clr-chocolate-800);
 	background-color: var(--clr-chocolate-500);
 
-	border: 0.2rem solid var(--clr-chocolate-800);
+	border: 0.3rem solid var(--clr-chocolate-800);
 	border-top-right-radius: 0.2rem;
 	border-top-left-radius: 2rem;
 	border-bottom-left-radius: 0.2rem;
@@ -124,7 +124,7 @@
 	z-index: 1;
 	width: 0.6rem;
 	pointer-events: none;
-	filter: invert(1);
+	filter: invert(23%) sepia(8%) saturate(2547%) hue-rotate(323deg) brightness(103%) contrast(87%);
 }
 
 .favourite__book-info {
@@ -158,6 +158,7 @@
 	font-family: var(--ff-poppins);
 	font-size: var(--fs-2xsm);
 	text-decoration: none;
+	text-align: center;
 	white-space: nowrap;
 
 	border-top: none;
