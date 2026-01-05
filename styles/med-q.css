@@ -19,11 +19,11 @@
 	.nav__link {
 		font-size: var(--fs-xsm);
 
-		width: 5rem;
+		width: 6rem;
 
-		border-bottom: 0.2rem solid rgba(0, 0, 0, 0.0);
+		border-bottom: 0.18rem solid rgba(0, 0, 0, 0.0);
 	}
-	.nav__link:hover { border-bottom: 0.2rem solid rgba(0, 0, 0, 0.5); }
+	.nav__link:hover { border-bottom: 0.18rem solid rgba(0, 0, 0, 0.5); }
 
 	.section__title { font-size: var(--fs-xmd); } 
 
@@ -36,8 +36,8 @@
 	.currently-reading__book-spoilers { font-size: var(--fs-sm); }
 	.currently-reading__book-quotes { font-size: var(--fs-sm); }
 	.quote.container {
-		max-width: 20rem;
-		height: 13rem;
+		max-width: 14rem;
+		height: 12rem;
 	} 
 	.quote-mark {
 		top: 1.0rem;
@@ -67,6 +67,7 @@
 	.header__title { font-size: var(--fs-lg); }
 
 	.currently-reading__book-image { width: 12rem; }
+	.quote.container { max-width: 17rem; }
 }
 
 @media (min-width: 784px) and (min-height: 980px) { 
@@ -105,7 +106,7 @@
 	.header__title { font-size: var(--fs-2xlg); }
 	.nav { height: 3rem; }
 	.nav__link { 
-		width: 6rem;
+		width: 7rem;
 		font-size: var(--fs-sm);
 	}
 
