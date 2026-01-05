@@ -1,4 +1,4 @@
-@media (min-width: 420px) {
+@media (min-width: 375px) {
 	html { scroll-padding-top: 8rem; }
 	body { padding-top: 8rem; }
 
@@ -14,12 +14,12 @@
 	.wide { width: 20rem; }
 
 	.header__inner { padding: 0.8rem; }
-	.header__title { font-size: var(--fs-2xmd); }
+	.header__title { font-size: var(--fs-lg); }
 	.nav { height: 2.5rem; }
 	.nav__link {
 		font-size: var(--fs-xsm);
 
-		width: 6rem;
+		width: 5.2rem;
 
 		border-bottom: 0.18rem solid rgba(0, 0, 0, 0.0);
 	}
@@ -28,8 +28,8 @@
 	.section__title { font-size: var(--fs-xmd); } 
 
 	.currently-reading__book-image { width: 10rem; }
-	.currently-reading__book-title { font-size: var(--fs-md); }
-	.currently-reading__book-author { font-size: var(--fs-xsm); }
+	.currently-reading__book-title { font-size: var(--fs-xmd); }
+	.currently-reading__book-author { font-size: var(--fs-sm); }
 	.currently-reading__book-review { max-width: 23rem; }
 	.currently-reading__book-oneline-review { font-size: var(--fs-base); }
 	.currently-reading__book-paragraph-review { font-size: var(--fs-sm); }
