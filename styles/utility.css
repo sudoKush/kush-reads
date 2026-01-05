@@ -23,7 +23,7 @@
 
   width: 7rem;
 
-  border: 0.2rem solid var(--clr-chocolate-800);
+  border: 0.3rem solid var(--clr-chocolate-800);
 
   color: var(--clr-chocolate-700);
   background-color: rgba(var(--clr-bg-normal), 1);
@@ -46,7 +46,7 @@
 
 .book-card:hover {
   transform: translateY(-0.2rem);
-	color: var(--clr-white);
+	color: var(--clr-chocolate-800);
   background-color: color-mix(in srgb, var(--clr-chocolate-500) 100%, transparent 0%);
   box-shadow: 0.1rem -0.1rem 0.5rem color-mix(in srgb, var(--clr-chocolate-700) 100%, transparent 0%);
 
