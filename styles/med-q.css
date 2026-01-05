@@ -21,9 +21,9 @@
 
 		width: 5rem;
 
-		border-bottom: 0.18rem solid rgba(0, 0, 0, 0.0);
+		border-bottom: 0.2rem solid rgba(0, 0, 0, 0.0);
 	}
-	.nav__link:hover { border-bottom: 0.18rem solid rgba(0, 0, 0, 0.5); }
+	.nav__link:hover { border-bottom: 0.2rem solid rgba(0, 0, 0, 0.5); }
 
 	.section__title { font-size: var(--fs-xmd); } 
 
@@ -65,7 +65,6 @@
 	.container { flex-flow: row wrap; }
 	.section { flex-direction: column; }
 	.header__title { font-size: var(--fs-lg); }
-	.header__logo { display: block; }
 
 	.currently-reading__book-image { width: 12rem; }
 }
@@ -104,7 +103,6 @@
 	.wide { width: 28rem; }
 
 	.header__title { font-size: var(--fs-2xlg); }
-	.header__logo { width: 5rem; }
 	.nav { height: 3rem; }
 	.nav__link { 
 		width: 6rem;
@@ -153,7 +151,6 @@
 	body { padding-top: 4rem; }
 
 	.header__title { font-size: var(--fs-3xlg); }
-	.header__logo { width: 6rem; }
 	.nav { height: 4rem; }
 	.nav__link { 
 		width: 8rem;
@@ -163,7 +160,7 @@
 	.section__title { font-size: var(--fs-xlg); }
 
 	.currently-reading__book-image { width: 14rem; }
-	.currently-reading__book-title { font-size: var(--fs-lg); }
+	.currently-reading__book-title { font-size: var(--fs-xlg); }
 	.currently-reading__book-author { font-size: var(--fs-base); )}
 	.currently-reading__book-review { max-width: 30rem; }
 	.currently-reading__book-oneline-review { font-size: var(--fs-lg); }
