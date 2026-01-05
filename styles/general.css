@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 :root {
-	--clr-bg-light: #FFF5E4;
+	--clr-bg: #f0e2d7;
 	--clr-bg-normal: #fce0b6;
 
   --clr-black: #000000;
@@ -33,7 +34,7 @@
 	--clr-chocolate-200: #ede1de;
 	--clr-chocolate-300: #dbc3bd;
 	--clr-chocolate-400: #c9a59c;
-	--clr-chocolate-500: #795739; 
+	--clr-chocolate-500: #d9baa0; 
 	--clr-chocolate-600: #b8857a; 
 	--clr-chocolate-700: #855247; 
 	--clr-chocolate-800: #633e36; 
@@ -44,6 +45,7 @@
   --ff-roboto-condensed: 'roboto condensed', serif;
   --ff-abril-fatface: 'abril fatface', serif;
   --ff-poiret-one: 'poiret one', serif;
+	--ff-allura: 'allura', serif;
 
   --fs-3xsm: 0.4rem;
   --fs-2xsm: 0.6rem;
@@ -77,7 +79,7 @@
 }
 
 html {
-	background-color: var(--clr-bg-light);
+	background-color: var(--clr-bg);
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
 
@@ -95,5 +97,7 @@ hr {
 
 ::selection {
   color: var(--clr-black);
-  background-color: var(--clr-bg-normal);
+  background-color: var(--clr-chocolate-400);
 }
+
+img { user-select: none; }
