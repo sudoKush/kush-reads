@@ -18,7 +18,7 @@
 
 .header__title {
   font-family: var(--ff-allura);
-	font-size: var(--fs-xmd);
+	font-size: var(--fs-2xmd);
   font-weight: var(--fw-bold);
 
   color: var(--clr-chocolate-800);
@@ -46,11 +46,11 @@
   justify-content: center;
   align-items: center;
 
-  width: 4rem;
+  width: 5rem;
   height: 100%;
 
   font-family: var(--ff-poiret-one);
-  font-size: var(--fs-2xsm);
+  font-size: var(--fs-xsm);
   font-weight: var(--fw-sb);
 
   white-space: nowrap;
