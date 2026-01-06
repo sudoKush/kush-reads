@@ -8,7 +8,8 @@ You can even read some public domain book as an EBook by clicking on the books w
 
 ![Website Preview: Current Read Section](./public/preview-images/preview-1.jpg)  
 ![Website Preview: Favourites Section](./public/preview-images/preview-2.jpg)  
-![Website Preview: Have Read and Want to Read Section](./public/preview-images/preview-3.jpg)  
+![Website Preview: Have Read Section](./public/preview-images/preview-3.jpg)  
+![Website Preview: Want to Read Section](./public/preview-images/preview-4.jpg)  
 
 
 ## Features  
